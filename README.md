@@ -39,6 +39,7 @@
 | Download | Use |
 | --- | --- |
 | [**Latest unsigned IPA**](../../releases/latest/download/Paperly-unsigned.ipa) | Re-sign and install Paperly on your own iPhone or iPad |
+| [**Mac development build**](../../releases/latest/download/Paperly-Mac-development.zip) | Apple Development–signed universal Mac app for registered test Macs; not notarized |
 | [**All releases**](../../releases) | Release notes and previous builds |
 | [**Source code**](../../archive/refs/heads/main.zip) | Build Paperly yourself with Xcode |
 
@@ -154,6 +155,8 @@ Swift Package Manager resolves the project dependencies automatically:
 Trust the connected device, enable **Settings → Privacy & Security → Developer Mode**, restart when prompted, and select the device in Xcode. Microphone access is requested only when starting an audio recording.
 
 ### Mac
+
+The downloadable ZIP contains a development-signed app for Apple silicon and Intel Macs. It is not notarized and requires a Mac included in its development provisioning profile while that profile remains valid. Other Macs should build from source and select their own signing team. This is a testing build, not a public Developer ID installer.
 
 Select **My Mac (Mac Catalyst)** as the destination. Open a text document and use the waveform button to access Audio notes.
 

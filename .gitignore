@@ -17,3 +17,8 @@ GoogleService-Info.plist
 *.ipa
 client_secret*.json
 credentials*.json
+
+# Vite website
+website/node_modules/
+website/dist/
+website/*.tsbuildinfo

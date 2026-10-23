@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T18:34:13.111417+00:00",
+  "title": "Design System: Paperly website",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0191 262.10)",
+          "oklch(27% 0.0191 262.10)",
+          "oklch(39% 0.0191 262.10)",
+          "oklch(51% 0.0191 262.10)",
+          "oklch(63% 0.0191 262.10)",
+          "oklch(75% 0.0191 262.10)",
+          "oklch(87% 0.0191 262.10)",
+          "oklch(95% 0.0191 262.10)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0255 256.79)",
+          "oklch(27% 0.0255 256.79)",
+          "oklch(39% 0.0255 256.79)",
+          "oklch(51% 0.0255 256.79)",
+          "oklch(63% 0.0255 256.79)",
+          "oklch(75% 0.0255 256.79)",
+          "oklch(87% 0.0255 256.79)",
+          "oklch(95% 0.0255 256.79)"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Blue",
+        "tonalRamp": [
+          "oklch(15% 0.2219 261.21)",
+          "oklch(27% 0.2219 261.21)",
+          "oklch(39% 0.2219 261.21)",
+          "oklch(51% 0.2219 261.21)",
+          "oklch(63% 0.2219 261.21)",
+          "oklch(75% 0.2219 261.21)",
+          "oklch(87% 0.2219 261.21)",
+          "oklch(95% 0.2219 261.21)"
+        ]
+      },
+      "blue-deep": {
+        "role": "primary",
+        "displayName": "Blue Deep",
+        "tonalRamp": [
+          "oklch(15% 0.1881 261.36)",
+          "oklch(27% 0.1881 261.36)",
+          "oklch(39% 0.1881 261.36)",
+          "oklch(51% 0.1881 261.36)",
+          "oklch(63% 0.1881 261.36)",
+          "oklch(75% 0.1881 261.36)",
+          "oklch(87% 0.1881 261.36)",
+          "oklch(95% 0.1881 261.36)"
+        ]
+      },
+      "wash": {
+        "role": "neutral",
+        "displayName": "Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0173 264.49)",
+          "oklch(27% 0.0173 264.49)",
+          "oklch(39% 0.0173 264.49)",
+          "oklch(51% 0.0173 264.49)",
+          "oklch(63% 0.0173 264.49)",
+          "oklch(75% 0.0173 264.49)",
+          "oklch(87% 0.0173 264.49)",
+          "oklch(95% 0.0173 264.49)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0104 261.79)",
+          "oklch(27% 0.0104 261.79)",
+          "oklch(39% 0.0104 261.79)",
+          "oklch(51% 0.0104 261.79)",
+          "oklch(63% 0.0104 261.79)",
+          "oklch(75% 0.0104 261.79)",
+          "oklch(87% 0.0104 261.79)",
+          "oklch(95% 0.0104 261.79)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(27% 0.0000 89.88)",
+          "oklch(39% 0.0000 89.88)",
+          "oklch(51% 0.0000 89.88)",
+          "oklch(63% 0.0000 89.88)",
+          "oklch(75% 0.0000 89.88)",
+          "oklch(87% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "section": {
+        "role": "neutral",
+        "displayName": "Section",
+        "tonalRamp": [
+          "oklch(15% 0.0074 260.73)",
+          "oklch(27% 0.0074 260.73)",
+          "oklch(39% 0.0074 260.73)",
+          "oklch(51% 0.0074 260.73)",
+          "oklch(63% 0.0074 260.73)",
+          "oklch(75% 0.0074 260.73)",
+          "oklch(87% 0.0074 260.73)",
+          "oklch(95% 0.0074 260.73)"
+        ]
+      },
+      "secondary-border": {
+        "role": "neutral",
+        "displayName": "Secondary Border",
+        "tonalRamp": [
+          "oklch(15% 0.0205 257.48)",
+          "oklch(27% 0.0205 257.48)",
+          "oklch(39% 0.0205 257.48)",
+          "oklch(51% 0.0205 257.48)",
+          "oklch(63% 0.0205 257.48)",
+          "oklch(75% 0.0205 257.48)",
+          "oklch(87% 0.0205 257.48)",
+          "oklch(95% 0.0205 257.48)"
+        ]
+      },
+      "secondary-hover": {
+        "role": "neutral",
+        "displayName": "Secondary Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0045 258.32)",
+          "oklch(27% 0.0045 258.32)",
+          "oklch(39% 0.0045 258.32)",
+          "oklch(51% 0.0045 258.32)",
+          "oklch(63% 0.0045 258.32)",
+          "oklch(75% 0.0045 258.32)",
+          "oklch(87% 0.0045 258.32)",
+          "oklch(95% 0.0045 258.32)"
+        ]
+      },
+      "glass-fallback": {
+        "role": "neutral",
+        "displayName": "Glass Fallback",
+        "tonalRamp": [
+          "oklch(15% 0.0062 255.47)",
+          "oklch(27% 0.0062 255.47)",
+          "oklch(39% 0.0062 255.47)",
+          "oklch(51% 0.0062 255.47)",
+          "oklch(63% 0.0062 255.47)",
+          "oklch(75% 0.0062 255.47)",
+          "oklch(87% 0.0062 255.47)",
+          "oklch(95% 0.0062 255.47)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headings."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Major section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Feature titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Compact explanatory copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Action labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "navigation",
+        "value": "0 10px 32px #2742600c, inset 0 1px 0 #ffffffe0",
+        "purpose": "Ambient glass navigation depth."
+      },
+      {
+        "name": "hero-screenshot",
+        "value": "0 18px 45px #172e582b",
+        "purpose": "Lift the actual iPad screenshot."
+      },
+      {
+        "name": "phone-preview",
+        "value": "0 16px 36px #13264029",
+        "purpose": "Separate overlapping phone screenshot."
+      },
+      {
+        "name": "gallery-image",
+        "value": "0 10px 24px #14224014",
+        "purpose": "Quiet product-image depth."
+      },
+      {
+        "name": "mobile-menu",
+        "value": "0 16px 32px #172e5814",
+        "purpose": "Separate expanded mobile links."
+      }
+    ],
+    "motion": [
+      {
+        "name": "hero-main",
+        "value": "opacity 0\u21921; y 3px\u21920; 0.65s; delay 0.1s; easeOut",
+        "purpose": "One-time main product reveal; reduced motion starts visible and settled."
+      },
+      {
+        "name": "hero-phone",
+        "value": "opacity 0\u21921; y 3px\u21920; 0.55s; delay 0.3s",
+        "purpose": "One-time phone reveal; reduced motion starts visible and settled."
+      },
+      {
+        "name": "gallery-image",
+        "value": "opacity 0\u21921\u21920; y 3px\u21920; 0.14s; AnimatePresence mode wait",
+        "purpose": "Short screenshot change; reduced-motion duration 0."
+      },
+      {
+        "name": "gallery-underline",
+        "value": "layoutId gallery-indicator; 0.22s easeOut",
+        "purpose": "Travel between selected tabs; reduced-motion duration 0."
+      },
+      {
+        "name": "header",
+        "value": "opacity 0\u21921; 0.3s",
+        "purpose": "One-time navigation fade."
+      },
+      {
+        "name": "control",
+        "value": "background .18s, color .18s, border-color .18s",
+        "purpose": "Action feedback; CSS transitions disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1600px"
+      },
+      {
+        "name": "tablet",
+        "value": "1100px"
+      },
+      {
+        "name": "stack",
+        "value": "800px"
+      },
+      {
+        "name": "mobile",
+        "value": "580px"
+      },
+      {
+        "name": "narrow",
+        "value": "360px"
+      }
+    ],
+    "deviceShowcase": {
+      "ipad": "Dark rounded bezel with landscape camera; unchanged image proportions",
+      "macbook": "Dark display lid with silver keyboard and trackpad deck",
+      "perspective": {
+        "desktop": "3000px",
+        "mobile": "1800px"
+      },
+      "motion": {
+        "library": "Motion for React",
+        "trigger": "Scroll progress from start 0.95 to start 0.28",
+        "rotateX": [
+          -82,
+          0
+        ],
+        "hinge": "center bottom",
+        "reducedMotion": "Fully open; no scroll rotation"
+      }
+    },
+    "heroBackdrop": {
+      "surface": "transparent",
+      "field": "radial-gradient(ellipse at 60% 38%, #b8d3ff9e 0%, #d5dfff70 42%, transparent 72%)",
+      "blur": {
+        "desktop": "40px",
+        "mobile": "25px"
+      },
+      "scope": "Decorative pseudo-element behind hero device only"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Rectangular blue install or download action.",
+      "html": "<a class=\"ds-button ds-primary\" href=\"#get-paperly\">Get Paperly <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M12 5v14m-7-7 7 7 7-7\"/></svg></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:28px;min-height:49px;padding:14px 20px;font:580 14px \"Geist Variable\",sans-serif;border:1px solid transparent;border-radius:0;text-decoration:none;transition:background .18s,color .18s,border-color .18s}.ds-primary{background:var(--blue,#1262ed);color:#fff}.ds-primary:hover{background:var(--blue-deep,#0849ba)}.ds-primary:focus-visible{outline:2px solid var(--blue,#1262ed);outline-offset:5px}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined source action.",
+      "html": "<a class=\"ds-button ds-secondary\" href=\"#source\">Get the source</a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:28px;min-height:49px;padding:14px 20px;font:580 14px \"Geist Variable\",sans-serif;border:1px solid transparent;border-radius:0;text-decoration:none;transition:background .18s,color .18s,border-color .18s}.ds-secondary{background:transparent;border-color:#c9d2df;color:var(--ink,#171c25)}.ds-secondary:hover{border-color:var(--ink,#171c25);background:#f5f7fa}.ds-secondary:focus-visible{outline:2px solid var(--blue,#1262ed);outline-offset:5px}"
+    },
+    {
+      "name": "Glass navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Rounded translucent navigation with readable opaque fallback.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Example navigation\"><a class=\"ds-brand\" href=\"#home\">Paperly</a><a href=\"#app\">The app</a><a href=\"#support\">Support</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:35px;padding:0 24px;min-height:76px;border-radius:22px;border:1px solid #ffffffb8;background:linear-gradient(135deg,#ffffffc9,#ffffffe0 55%,#f0f6ffd1);box-shadow:0 10px 32px #2742600c,inset 0 1px 0 #ffffffe0;backdrop-filter:blur(22px) saturate(140%);font:500 14px \"Geist Variable\",sans-serif;color:var(--ink,#171c25)}.ds-nav a{color:inherit;text-decoration:none;padding:14px 0}.ds-nav a:hover{color:var(--blue,#1262ed)}.ds-nav a:focus-visible{outline:2px solid var(--blue,#1262ed);outline-offset:5px}.ds-brand{font-size:26px;font-weight:690;letter-spacing:-.04em;margin-right:auto}@media(max-width:580px){.ds-nav{border-radius:18px;padding:0 14px;min-height:64px;gap:18px}}@supports not(backdrop-filter:blur(1px)){.ds-nav{background:#f8fbff}}@media(prefers-reduced-transparency:reduce){.ds-nav{background:#f8fbff;backdrop-filter:none}}"
+    },
+    {
+      "name": "Gallery tab rail",
+      "kind": "custom",
+      "refersTo": "gallery-tab-selected",
+      "description": "Plain tabs with a blue selected underline, never pill backgrounds.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Example views\"><button class=\"ds-tab\" role=\"tab\" aria-selected=\"true\">Handwriting</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\">Text</button></div>",
+      "css": ".ds-tabs{display:flex;gap:25px;border-bottom:1px solid #cfd6e2}.ds-tab{position:relative;padding:18px 9px 18px 0;border:0;border-bottom:2px solid transparent;border-radius:0;background:transparent;color:var(--muted,#5c6674);font:400 14px \"Geist Variable\",sans-serif;cursor:pointer}.ds-tab:hover{color:var(--ink,#171c25)}.ds-tab[aria-selected=true]{color:var(--blue,#1262ed);border-bottom-color:var(--blue,#1262ed)}.ds-tab:focus-visible{outline:2px solid var(--blue,#1262ed);outline-offset:5px}"
+    },
+    {
+      "name": "FAQ disclosure",
+      "kind": "custom",
+      "description": "Native details row separated by thin neutral rules.",
+      "html": "<details class=\"ds-faq\"><summary>Is Paperly really free?<svg width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg></summary><p>Paperly is free to use and MIT licensed.</p></details>",
+      "css": ".ds-faq{color:var(--ink,#171c25);border-block:1px solid var(--line,#e2e6ed);font-family:\"Geist Variable\",sans-serif}.ds-faq summary{display:flex;align-items:center;justify-content:space-between;gap:20px;list-style:none;padding:21px 0;font-size:15px;font-weight:520;line-height:1.5;cursor:pointer}.ds-faq summary::-webkit-details-marker{display:none}.ds-faq summary:hover{color:var(--blue,#1262ed)}.ds-faq summary:focus-visible{outline:2px solid var(--blue,#1262ed);outline-offset:5px}.ds-faq svg{transition:transform .18s}.ds-faq[open] svg{transform:rotate(45deg)}.ds-faq p{font-size:14px;color:var(--muted,#5c6674);line-height:1.65;padding-bottom:23px;margin:0;max-width:460px}@media(prefers-reduced-motion:reduce){.ds-faq svg{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Open Product Desk",
+    "overview": "Paperly's public website is modern, spacious, and direct. White and cool pale-blue fields give the original native-app screenshots room to explain the product. Near-black Geist typography and electric-blue actions make the reading and install paths easy to follow.\n\nThis direction comes from the user's explicit requests and supplied product imagery. It is not an approved generated comp or an externally verified quality-bar reference. This document governs the Vite website only; the native app has its own design system.",
+    "keyCharacteristics": [
+      "Real README screenshots and the supplied Paperly logo.",
+      "Large, closely tracked headings and concise supporting copy.",
+      "Rectangular controls with selectively rounded navigation and screenshots.",
+      "Quiet motion and readable preference-based fallbacks."
+    ],
+    "rules": [
+      {
+        "name": "The Action Blue Rule",
+        "body": "Reserve the accent for actionable or emphasized content; use neutral rules and pale fields for structure.",
+        "section": "colors"
+      },
+      {
+        "name": "The Product Depth Rule",
+        "body": "Give depth to the actual product imagery and navigation; keep prose sections open and separated by thin rules.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Selective Rounding Rule",
+        "body": "Preserve the rounded glass navigation and screenshot frames without turning buttons, labels, or tabs into pills.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** use real README screenshots and concise image descriptions.",
+      "**Do** preserve the responsive navigation and screenshot radius tokens.",
+      "**Do** keep primary actions rectangular and blue.",
+      "**Do** retain keyboard controls, visible focus, and motion/transparency fallbacks."
+    ],
+    "donts": [
+      "**Don't** turn buttons, tabs, or platform labels into pills.",
+      "**Don't** replace native screenshots with fabricated interfaces or mock device frames.",
+      "**Don't** add continuous decorative motion or repeated section reveals.",
+      "**Don't** promote the website's glass treatment into the native app's design system."
+    ]
+  }
+}

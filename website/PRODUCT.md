@@ -1,0 +1,7 @@
+# Paperly website
+
+A public website for the native Paperly app, built with Vite, React, and TypeScript. This is not a browser notes client. Paperly is free to use and MIT licensed; source and releases are at https://github.com/AayushGokhale2005/Paperly.
+
+Product facts come from the root README, LICENSE, and native implementation. Cover native text documents, PencilKit handwriting, PDF annotation, folders, offline storage, optional Google Drive, and local audio transcription and note generation. Mac uses Catalyst. Apple Intelligence availability gates generated audio notes; Whisper needs a first model download. The published iPhone/iPad artifact is an unsigned IPA requiring signing; Mac has an Apple Development–signed ZIP for registered test Macs, without notarization. Other Macs build and sign from source. Do not invent App Store links, ratings, user counts, testimonials, notarized public Mac installers, or prices.
+
+Use the original screenshots linked by the README and the supplied Paperly logo. The user's visual direction is modern, no pills except the subsequently requested rounded liquid-glass navigation and rounded screenshot corners, Framer Motion transitions, and concise copy and image descriptions. Preserve meaningful accessibility. Privacy and support remain real pages; use repository issues/discussions rather than placeholder email addresses. Do not deploy or publish unless requested.
