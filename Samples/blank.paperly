@@ -1,0 +1,20 @@
+{
+  "manifest": {
+    "formatVersion": 1,
+    "id": "cce2db81-c4e0-4ee7-9255-176aad1a33af",
+    "title": "Blank sketchbook",
+    "createdAt": 0,
+    "modifiedAt": 0,
+    "generation": "c526761a-dc61-49dc-9f35-3b3e01b7bf94",
+    "cover": "sand",
+    "pages": [
+      {
+        "id": "af0cf23c-1cf1-429f-a088-46d17cad563a",
+        "template": "blank",
+        "width": 768,
+        "height": 1024
+      }
+    ]
+  },
+  "assets": {}
+}

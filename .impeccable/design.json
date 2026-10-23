@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 2,
+  "title": "Design System: Paperly",
+  "platform": "ios",
+  "mode": "operate",
+  "authority": "user-attached reference screens",
+  "extensions": {
+    "nativePlatform": {
+      "frameworks": [
+        "SwiftUI",
+        "UIKit",
+        "PencilKit",
+        "PDFKit"
+      ],
+      "units": "pt",
+      "primitiveSource": "DESIGN.md frontmatter",
+      "semanticColors": {
+        "tint": "SwiftUI.Color.blue",
+        "selectedAccent": "SwiftUI.Color.accentColor",
+        "background": "UIKit.systemBackground",
+        "sidebar": "UIKit.secondarySystemBackground",
+        "text": "SwiftUI.primary",
+        "metadata": "SwiftUI.secondary",
+        "cardOutline": "UIKit.separator"
+      },
+      "semanticTypography": {
+        "display": "largeTitle.bold",
+        "title": "title3.bold",
+        "body": "body",
+        "metadata": "caption",
+        "syncMetadata": "caption2"
+      },
+      "navigation": {
+        "container": "NavigationSplitView",
+        "sidebarWidth": {
+          "min": 240,
+          "ideal": 280,
+          "max": 320
+        },
+        "editor": "fullScreenCover",
+        "adaptation": "native system behavior"
+      },
+      "toolbar": {
+        "material": "regularMaterial",
+        "shape": "Capsule",
+        "adaptation": "ViewThatFits one or two rows"
+      },
+      "persistence": {
+        "defaultTemplate": {
+          "storage": "AppStorage",
+          "default": "ruled",
+          "values": [
+            "blank",
+            "ruled",
+            "grid",
+            "dot"
+          ]
+        },
+        "appearance": {
+          "storage": "AppStorage",
+          "default": "system",
+          "values": [
+            "system",
+            "light",
+            "dark"
+          ]
+        },
+        "sessionOnly": [
+          "grid/list",
+          "query",
+          "sort",
+          "folder selection",
+          "current page"
+        ],
+        "inkPreferences": {
+          "storage": "UserDefaults",
+          "values": [
+            "penStyle",
+            "inkWidth",
+            "scribbleToErase",
+            "scribbleIncludesHighlighter"
+          ]
+        }
+      },
+      "stateVocabulary": {
+        "localSave": [
+          "Saving locally\u2026",
+          "Saved on this iPad",
+          "Could not save \u2014 retry before closing"
+        ],
+        "library": [
+          "On this iPad",
+          "Waiting to sync",
+          "Conflict \u2014 both versions kept"
+        ],
+        "sync": [
+          "Stored on this iPad",
+          "Syncing\u2026",
+          "Writing locally \u00b7 sync after closing",
+          "Waiting to retry \u00b7 saved locally",
+          "Synced with Google Drive",
+          "Conflicts need review"
+        ]
+      },
+      "accessibility": {
+        "dynamicType": "Native semantic text styles",
+        "accountPanel": "At typeSize.isAccessibilitySize, full-width VStack with vertical expansion; standard sizes retain icon and chevron HStack."
+      },
+      "pageViewport": {
+        "framework": "UIScrollView with lazily hosted editable SwiftUI pages",
+        "zoom": "pinch fit-width through 6x; reset through menu; no persistent readout or hint",
+        "pan": "two fingers for finger writing; one for Pencil-only except image editing",
+        "pagePull": "release beyond final document edge to append",
+        "focus": "last edited page retained through layout updates; actual scroll selects visible page"
+      },
+      "workspace": {
+        "home": "folders first plus unfiled notebooks",
+        "folders": "SQLite catalog preserves empty folders",
+        "pdfImport": "Open In/Copy To file URL \u2192 durable inbox \u2192 destination chooser \u2192 Import & Open"
+      },
+      "universalClients": {
+        "shippedTargets": [
+          "iPhone",
+          "iPad"
+        ],
+        "mac": "planned",
+        "workspace": "Shared folder-first workspace with matching grid/list, document types, search, sort, folders and creation/import actions",
+        "phoneNavigation": [
+          "Workspace",
+          "Recents",
+          "Settings"
+        ],
+        "phoneBrand": "Transparent supplied 28 pt mark centered in a 44 pt frame at phone Workspace root only; no hidden wordmark or iPad addition",
+        "text": "Native block input, headings/lists/checks/quotes/code, history, local autosave, Markdown/Paperly export",
+        "folders": "SQLite catalog plus additive Drive folder sync; live OAuth not validated",
+        "pageView": "Whole-page slots and adjacent swipe snapping; new-page activation/fit; optional continuous mode",
+        "motion": "Native navigation, workspace transitions, selected tools and page scrolling; Reduce Motion respected"
+      }
+    },
+    "shadows": [
+      {
+        "name": "cover",
+        "value": "SwiftUI .black.opacity(0.14), radius: 10, x: 0, y: 9",
+        "purpose": "Tactile cover lift"
+      },
+      {
+        "name": "page",
+        "value": "SwiftUI .black.opacity(0.07), radius: 15, y: 5",
+        "purpose": "Paper separation from the writing surround"
+      }
+    ],
+    "validation": {
+      "basis": "Static inspection of implemented native views and state models; native simulator captures available for independent review",
+      "tests": {
+        "passed": 80,
+        "core": 26,
+        "iOS": 54,
+        "devices": "54 full-suite iOS tests before relative-enumerator refinement; latest repository tests: 4 Simulator, 5 physical iPhone, including actual Documents folder",
+        "physicalRepositoryTests": 5
+      },
+      "builds": {
+        "finalIPadOnly": "succeeded",
+        "accessibilityAdjustment": "succeeded",
+        "editorFeatures": "succeeded",
+        "universalClients": "succeeded",
+        "phoneBrand": "succeeded",
+        "colorsSearchTrash": "succeeded",
+        "deviceArchivePaths": "succeeded",
+        "relativeAssetEnumeration": "succeeded, installed on both physical devices"
+      },
+      "captureDevice": "iPad Pro 13-inch (M5), portrait",
+      "captures": [
+        ".impeccable/review/library-light.png",
+        ".impeccable/review/editor-light.png",
+        ".impeccable/review/settings-light.png",
+        ".impeccable/review/library-dark-accessibility.png",
+        ".impeccable/review/settings-dark-accessibility.png"
+      ],
+      "darkCaptureTypeSize": "accessibility-large",
+      "captureReview": "scoped ship: no material defect in the five inspected iPad Pro 13-inch portrait captures",
+      "physicalPencil": "not validated",
+      "liveOAuth": "not validated",
+      "croppedRotatedPDF": "not validated",
+      "editorFeatureCaptures": [
+        ".impeccable/review/pen-settings.png",
+        ".impeccable/review/image-paste.png"
+      ],
+      "editorFeatureRuntime": "Photos insertion, image move/rotate/copy/paste/undo/redo, thumbnail, native lasso ink copy/paste/undo checked on simulator",
+      "editorFeatureCaptureReview": "scoped ship: no material issue in pen-settings and image-paste light portrait captures; other sizes/dark/accessibility/hardware outside scope",
+      "pageViewport": "native coordinate/persistence tests passed; portrait image fixture inspected; multitouch feel awaits user hardware test",
+      "pendingIPadUpdate": "User authorized October 22, 2026: signed build succeeded, installed over existing iPad app, launched and running process confirmed. Physical gesture feel and third-party PDF handoff still require device checks.",
+      "universalValidation": "43 iOS + 22 core tests pass. Native phone tabs, shared workspace and text editor inspected; supplied phone-only logo confirmed at normal text size. No physical-device deployment in this pass."
+    },
+    "previewPolicy": "Native components are documented as SwiftUI behavior; no HTML/CSS reconstruction is supplied."
+  },
+  "narrative": {
+    "overview": "The user-supplied Goodnotes-inspired reference screens govern this world: a quiet pale sidebar, blue selection, tactile pastel covers, white paper, and floating writing controls. Writing and finding notebooks take priority over decoration. Preserve this established direction when adding screens."
+  }
+}

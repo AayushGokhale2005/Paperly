@@ -1,0 +1,7 @@
+// Safe defaults for source control. Copy these keys to Config.local.xcconfig
+// and replace them with your own Google Cloud iOS OAuth client values.
+// Config.local.xcconfig is ignored by Git and overrides these placeholders.
+GOOGLE_CLIENT_ID = 000000000000-example.apps.googleusercontent.com
+GOOGLE_REVERSED_CLIENT_ID = com.googleusercontent.apps.000000000000-example
+
+#include? "Config.local.xcconfig"

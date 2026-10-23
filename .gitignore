@@ -1,0 +1,19 @@
+.DS_Store
+.build/
+DerivedData*/
+*.xcuserstate
+xcuserdata/
+.impeccable/review/
+
+# Local credentials and signing material
+Config.local.xcconfig
+GoogleService-Info.plist
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.mobileprovision
+*.ipa
+client_secret*.json
+credentials*.json

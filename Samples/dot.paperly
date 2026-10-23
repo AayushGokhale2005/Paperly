@@ -1,0 +1,20 @@
+{
+  "manifest": {
+    "formatVersion": 1,
+    "id": "9e4b5e65-f9e2-4e7b-9b85-6c0943cfa440",
+    "title": "Dot journal",
+    "createdAt": 0,
+    "modifiedAt": 0,
+    "generation": "0d02c4bc-cdcb-4284-b14a-cd0fe837782b",
+    "cover": "lavender",
+    "pages": [
+      {
+        "id": "1de1ae5d-531d-49f6-aba1-b09dbda836d1",
+        "template": "dot",
+        "width": 768,
+        "height": 1024
+      }
+    ]
+  },
+  "assets": {}
+}

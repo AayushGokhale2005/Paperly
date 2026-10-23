@@ -1,0 +1,20 @@
+{
+  "manifest": {
+    "formatVersion": 1,
+    "id": "2587d543-27b6-49e2-bb68-f6fa370025e5",
+    "title": "Ruled notebook",
+    "createdAt": 0,
+    "modifiedAt": 0,
+    "generation": "26996e20-ae61-45d3-b448-6ee23bc274ec",
+    "cover": "blue",
+    "pages": [
+      {
+        "id": "b70c5c6b-12f5-43ae-941b-e865aac9893a",
+        "template": "ruled",
+        "width": 768,
+        "height": 1024
+      }
+    ]
+  },
+  "assets": {}
+}

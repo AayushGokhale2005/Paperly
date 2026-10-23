@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02142C78DFD988B21722F1A7 /* LocalAudioIntelligence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6261187338BD13407DC895B6 /* LocalAudioIntelligence.swift */; };
+		188EB9237A9174D780BB2774 /* GoogleAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A8EC926BD0836E5EAA7EF /* GoogleAccount.swift */; };
+		198DC06BD9555D4AA651B934 /* MacRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430635EAA39714C3B191D04D /* MacRecordingView.swift */; };
+		1C02BEF7EDDB5308AF73E3CC /* SearchableHandwritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A21EADEF35AC0FBAC22582 /* SearchableHandwritingView.swift */; };
+		22CF1DE3B676BF4ADBF84CCF /* PaperlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC7B320C0676D1CDF7ACD59 /* PaperlyApp.swift */; };
+		2D2AE67597BE3033A21BC0D5 /* ImportLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A905ADD2741F3907BB76ED /* ImportLocationView.swift */; };
+		3549060685298BCCA22799F5 /* dot.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CDF93DA457396BEA397C283 /* dot.json */; };
+		3806C54B834915C08FD560B2 /* WhisperKit in Frameworks */ = {isa = PBXBuildFile; productRef = 762AB90534FC570264F27457 /* WhisperKit */; };
+		3A6BEA5202AB5C20A6ECC230 /* ContinuousNotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D621EAD78692BE49AE9CFB1 /* ContinuousNotebookTests.swift */; };
+		3C1337D20498F77BA368C4CA /* PaperInkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059A1E36844C7E7B929D1A8 /* PaperInkTests.swift */; };
+		3F92FF8D961A67FFEFE3BC2B /* PagePull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2586DC4100881AD46C130F08 /* PagePull.swift */; };
+		411C6C9D652F950C12D07448 /* TrashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1034AFD6F740010D8A431D88 /* TrashTests.swift */; };
+		4126924570DB92B03C407351 /* PageThumbnailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B033257D2FF0638B21F54D5D /* PageThumbnailTests.swift */; };
+		42C6EC5D4AC655B51E0D0F46 /* StrokeEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8A1814A022CA67B03495C /* StrokeEditing.swift */; };
+		4425B46A0B41323D0EF00A8A /* ruled.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C6456C44726EAE98C67A84E /* ruled.json */; };
+		4720CDE969D7681016F1BFAE /* PageViewport.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3872D8989CC20D3D623F02 /* PageViewport.swift */; };
+		4ADC87DFC8E9CF7EAEF37469 /* PhoneAudioNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45A9F25E864C992FA6A3A51 /* PhoneAudioNoteView.swift */; };
+		4F2DC85AC0B841E2BA5ABB3E /* grid.json in Resources */ = {isa = PBXBuildFile; fileRef = F0B8F0B4826987E7C273BD2A /* grid.json */; };
+		52FEA059C8910D89318D1BAC /* StrokeEditingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988AEDE0CC80C571F03414E1 /* StrokeEditingTests.swift */; };
+		5E56FC62C5628193CE6C853F /* WritingCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEFA8720A48511F192C8B1C /* WritingCanvas.swift */; };
+		6157D165FED6702B25EEFFC7 /* HandwritingSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D670848204E50E8B8F01658F /* HandwritingSearchTests.swift */; };
+		61B85783401584B089EEAD83 /* PDFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B903B75EEE4A943E7B31B20 /* PDFService.swift */; };
+		66E78BE7D81E100CB70EF428 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 7A24815E28AD1F1E43B2443C /* GRDB */; };
+		6734C0663511B2D0DFBA67A7 /* TextDocumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D60161DF754F7BD2D8CD0 /* TextDocumentTests.swift */; };
+		692042424D499F7095ADF50E /* TextDocumentEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278EB92788FDDCEA44FC11D /* TextDocumentEditorView.swift */; };
+		6FB87559F978FCEA4AFE9A2B /* PaperlyWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC395094482691D357B3A766 /* PaperlyWidgets.swift */; };
+		7B8320649BE7E43EEA74BE01 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3E8CB9CF5C0456D71C25CA36 /* GoogleSignIn */; };
+		806EE83341552607FA5C7122 /* TextDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E8CA6E090E8C28F14E947 /* TextDocument.swift */; };
+		82751C867AA81FF488B83C32 /* ImagePDFExportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBD60A1448DADF5C73191EB /* ImagePDFExportTests.swift */; };
+		89A3F2B71346B561E513F2EE /* PageThumbnailRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94491F8DE40339EB35EBC8F /* PageThumbnailRenderer.swift */; };
+		8B606E9BBDE84F079093787E /* SyncDecision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5DE6F0B24780EEEE3B0129 /* SyncDecision.swift */; };
+		8BBC44649EA55995558EEB5B /* WorkspaceImportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C84F68E0F8B278D4FC04D68 /* WorkspaceImportTests.swift */; };
+		949D292FC00F1FAC843AAEA2 /* TextDocumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC507622FC1B2922D62E0D /* TextDocumentViewModel.swift */; };
+		9AF0EF2121BE63012D768EF4 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D824068A3DCF4C5041C4F /* Recording.swift */; };
+		9CC0C2882C4A6C7B1FD0F5F7 /* PaperlyWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6B3D3104569320E6490BB3ED /* PaperlyWidgets.appex */; platformFilters = (ios, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9DBFCEFF96BC601D0F229507 /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB416A90072A3548FCD527B /* RepositoryTests.swift */; };
+		A4111877EEC3BC085A4BF44E /* NoteSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4CD14DFC7DE2971A9C1349 /* NoteSearch.swift */; };
+		A856452430F2BD29BC9E1F07 /* HandwritingIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559CF8EFAD7DFCCE515ABACF /* HandwritingIndexer.swift */; };
+		ACEC5B37A043A7958A6C4B59 /* ImageClipboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F9EF1A6D1A4194CCF88322 /* ImageClipboardTests.swift */; };
+		B2A2B8B96F6B928C68ECD79D /* DriveClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5C401747E02A6EA6209BEE /* DriveClient.swift */; };
+		B54391E6F4743E98338078D8 /* AudioNoteLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B03EF0B18E4525744BCA5A /* AudioNoteLiveActivity.swift */; };
+		C0C21633243B423F699ABAFF /* NotebookSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F241805B18F2A21270178E19 /* NotebookSession.swift */; };
+		C277FFBF6F0767D642C32A1F /* AudioNoteActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914A87CB6B3156010CF54B7D /* AudioNoteActivityAttributes.swift */; };
+		C5B11BB16F1270376D40E1B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978BE2F90DC609DD6672E966 /* Assets.xcassets */; };
+		C7920CDF3EA71B42DBDB3FBA /* NotebookImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F3FA9BE5618F0FA830E29B /* NotebookImagesView.swift */; };
+		C97EEFF6A4D5961B6EC672FC /* WorkspaceFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6640BD6989A3A2A25907E958 /* WorkspaceFolder.swift */; };
+		C9C19181B20E79BEEF489BB7 /* EditorPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF0C10E23473F862FCB71A3 /* EditorPreferences.swift */; };
+		CCDBCD079290DF78B6AFAECD /* BlockTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065716D09EEB0D7FB744E20C /* BlockTextView.swift */; };
+		D39D988C48D65B9596CC2B51 /* FolderColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81CA6BD8E0DFFFCFD93F7DA /* FolderColorView.swift */; };
+		D5A2EAB53A806017D6B99DA3 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FAF40CDC4832C36DFF5A16 /* SyncService.swift */; };
+		D70941CEB1528C37AE9B60F6 /* blank.json in Resources */ = {isa = PBXBuildFile; fileRef = 740C440159B0EF409E34AE0A /* blank.json */; };
+		D72515DA3965835DAF27B0EC /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A91BD735927F13D285403F /* LibraryViewModel.swift */; };
+		D7E0251046E15343414951F7 /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D906EAE1D5154026706086F2 /* Notebook.swift */; };
+		D854F21F39D90CD95FF417C9 /* EditorImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3203046DA3EF2A6596BA89C9 /* EditorImageTests.swift */; };
+		D9BA47D34ED5C20DB93A918A /* AudioNoteActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914A87CB6B3156010CF54B7D /* AudioNoteActivityAttributes.swift */; };
+		DA0F9F580EB018FD073EB1C1 /* PaperInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9147C17C4F18B5B8CDD5DB55 /* PaperInk.swift */; };
+		DA6FB11594F085D4C8CBBE8B /* PenSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B16AEA887141A9FD675BC /* PenSettingsView.swift */; };
+		DD0B6F341531E46DCED37FE7 /* NotebookEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD3272FA6CCB6D5322EF658 /* NotebookEditorView.swift */; };
+		E18AE6522B4DB6ADC39D2347 /* PageViewportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459808C6A609276484CA9111 /* PageViewportTests.swift */; };
+		E4C34B3894CBA9F000B66EC0 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505D501BED37DC0B67CAE84 /* LibraryView.swift */; };
+		F0B27FC239310DF1048BA773 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18C03048C06016C3FCD250F /* SettingsView.swift */; };
+		F0DDFDF912DA6C3E30CF95CA /* EditorClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA675835BD28DEEE7EE9BE26 /* EditorClipboard.swift */; };
+		F560FC09B56F4168204C44D7 /* EditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A755D5A7334BFC5E1888FC /* EditorViewModel.swift */; };
+		F6A0B50AFA3A025FF4B5149D /* IncomingDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A517045F334BC3D472112 /* IncomingDocument.swift */; };
+		FD1765A7F309B5123B7B680A /* ContinuousNotebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E6713ACF5C69823606518 /* ContinuousNotebookView.swift */; };
+		FEED64706E304AD7864CF985 /* NotebookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E0A145F1D19F5FA0900BE /* NotebookRepository.swift */; };
+		FF152F5680D001FAE1F6415A /* ScribbleGestureDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F1585EFE7DC13909707FFB /* ScribbleGestureDetector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A38346AC57A0B28DEEF76DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B0A2FE92F9751F738BD6CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2266EB4B4751B968866FA50F;
+			remoteInfo = PaperlyWidgets;
+		};
+		F554BEA72CB5101A704B382C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B0A2FE92F9751F738BD6CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5726C44F0B4C5873F882D1A0;
+			remoteInfo = Paperly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3857908428E2102A2099CCC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9CC0C2882C4A6C7B1FD0F5F7 /* PaperlyWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0505D501BED37DC0B67CAE84 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		065716D09EEB0D7FB744E20C /* BlockTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTextView.swift; sourceTree = "<group>"; };
+		0C6456C44726EAE98C67A84E /* ruled.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ruled.json; sourceTree = "<group>"; };
+		1034AFD6F740010D8A431D88 /* TrashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashTests.swift; sourceTree = "<group>"; };
+		1C98D4977C44B9C027522880 /* Paperly.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Paperly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2586DC4100881AD46C130F08 /* PagePull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagePull.swift; sourceTree = "<group>"; };
+		2A7D60161DF754F7BD2D8CD0 /* TextDocumentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocumentTests.swift; sourceTree = "<group>"; };
+		2EB416A90072A3548FCD527B /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
+		2F4CD14DFC7DE2971A9C1349 /* NoteSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteSearch.swift; sourceTree = "<group>"; };
+		3203046DA3EF2A6596BA89C9 /* EditorImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorImageTests.swift; sourceTree = "<group>"; };
+		3278EB92788FDDCEA44FC11D /* TextDocumentEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocumentEditorView.swift; sourceTree = "<group>"; };
+		388A517045F334BC3D472112 /* IncomingDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingDocument.swift; sourceTree = "<group>"; };
+		3CD3272FA6CCB6D5322EF658 /* NotebookEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookEditorView.swift; sourceTree = "<group>"; };
+		430635EAA39714C3B191D04D /* MacRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacRecordingView.swift; sourceTree = "<group>"; };
+		431F42CE028B99D5E0E36342 /* PaperlyTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PaperlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F9EF1A6D1A4194CCF88322 /* ImageClipboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClipboardTests.swift; sourceTree = "<group>"; };
+		459808C6A609276484CA9111 /* PageViewportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewportTests.swift; sourceTree = "<group>"; };
+		54A21EADEF35AC0FBAC22582 /* SearchableHandwritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableHandwritingView.swift; sourceTree = "<group>"; };
+		559CF8EFAD7DFCCE515ABACF /* HandwritingIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandwritingIndexer.swift; sourceTree = "<group>"; };
+		562B16AEA887141A9FD675BC /* PenSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenSettingsView.swift; sourceTree = "<group>"; };
+		5B2E8CA6E090E8C28F14E947 /* TextDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocument.swift; sourceTree = "<group>"; };
+		6261187338BD13407DC895B6 /* LocalAudioIntelligence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAudioIntelligence.swift; sourceTree = "<group>"; };
+		6640BD6989A3A2A25907E958 /* WorkspaceFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceFolder.swift; sourceTree = "<group>"; };
+		6B3D3104569320E6490BB3ED /* PaperlyWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = PaperlyWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B903B75EEE4A943E7B31B20 /* PDFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFService.swift; sourceTree = "<group>"; };
+		6D621EAD78692BE49AE9CFB1 /* ContinuousNotebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousNotebookTests.swift; sourceTree = "<group>"; };
+		6F2D824068A3DCF4C5041C4F /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		70B03EF0B18E4525744BCA5A /* AudioNoteLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioNoteLiveActivity.swift; sourceTree = "<group>"; };
+		740C440159B0EF409E34AE0A /* blank.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blank.json; sourceTree = "<group>"; };
+		7CBC507622FC1B2922D62E0D /* TextDocumentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocumentViewModel.swift; sourceTree = "<group>"; };
+		7DF0C10E23473F862FCB71A3 /* EditorPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorPreferences.swift; sourceTree = "<group>"; };
+		7E8E6713ACF5C69823606518 /* ContinuousNotebookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousNotebookView.swift; sourceTree = "<group>"; };
+		7FBD60A1448DADF5C73191EB /* ImagePDFExportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePDFExportTests.swift; sourceTree = "<group>"; };
+		8CDF93DA457396BEA397C283 /* dot.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dot.json; sourceTree = "<group>"; };
+		9147C17C4F18B5B8CDD5DB55 /* PaperInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperInk.swift; sourceTree = "<group>"; };
+		914A87CB6B3156010CF54B7D /* AudioNoteActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioNoteActivityAttributes.swift; sourceTree = "<group>"; };
+		978BE2F90DC609DD6672E966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		988AEDE0CC80C571F03414E1 /* StrokeEditingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeEditingTests.swift; sourceTree = "<group>"; };
+		9B5DE6F0B24780EEEE3B0129 /* SyncDecision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncDecision.swift; sourceTree = "<group>"; };
+		9C84F68E0F8B278D4FC04D68 /* WorkspaceImportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceImportTests.swift; sourceTree = "<group>"; };
+		9CB8A1814A022CA67B03495C /* StrokeEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeEditing.swift; sourceTree = "<group>"; };
+		A059A1E36844C7E7B929D1A8 /* PaperInkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperInkTests.swift; sourceTree = "<group>"; };
+		B033257D2FF0638B21F54D5D /* PageThumbnailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThumbnailTests.swift; sourceTree = "<group>"; };
+		B0A755D5A7334BFC5E1888FC /* EditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewModel.swift; sourceTree = "<group>"; };
+		B5EE0C7CF90346F1AC604926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B6FAF40CDC4832C36DFF5A16 /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncService.swift; sourceTree = "<group>"; };
+		C18C03048C06016C3FCD250F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C1A905ADD2741F3907BB76ED /* ImportLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportLocationView.swift; sourceTree = "<group>"; };
+		C8A91BD735927F13D285403F /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		C94491F8DE40339EB35EBC8F /* PageThumbnailRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThumbnailRenderer.swift; sourceTree = "<group>"; };
+		D45A9F25E864C992FA6A3A51 /* PhoneAudioNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAudioNoteView.swift; sourceTree = "<group>"; };
+		D670848204E50E8B8F01658F /* HandwritingSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandwritingSearchTests.swift; sourceTree = "<group>"; };
+		D6F3FA9BE5618F0FA830E29B /* NotebookImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookImagesView.swift; sourceTree = "<group>"; };
+		D906EAE1D5154026706086F2 /* Notebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notebook.swift; sourceTree = "<group>"; };
+		DA675835BD28DEEE7EE9BE26 /* EditorClipboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorClipboard.swift; sourceTree = "<group>"; };
+		DC0A8EC926BD0836E5EAA7EF /* GoogleAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAccount.swift; sourceTree = "<group>"; };
+		DC395094482691D357B3A766 /* PaperlyWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperlyWidgets.swift; sourceTree = "<group>"; };
+		E81CA6BD8E0DFFFCFD93F7DA /* FolderColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderColorView.swift; sourceTree = "<group>"; };
+		EAC7B320C0676D1CDF7ACD59 /* PaperlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperlyApp.swift; sourceTree = "<group>"; };
+		EC6E0A145F1D19F5FA0900BE /* NotebookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookRepository.swift; sourceTree = "<group>"; };
+		ECEFA8720A48511F192C8B1C /* WritingCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingCanvas.swift; sourceTree = "<group>"; };
+		ED3872D8989CC20D3D623F02 /* PageViewport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewport.swift; sourceTree = "<group>"; };
+		F0B8F0B4826987E7C273BD2A /* grid.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = grid.json; sourceTree = "<group>"; };
+		F241805B18F2A21270178E19 /* NotebookSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookSession.swift; sourceTree = "<group>"; };
+		F3F1585EFE7DC13909707FFB /* ScribbleGestureDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribbleGestureDetector.swift; sourceTree = "<group>"; };
+		FCB46F44B44FAC3C27E5B12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FD84D5392F18380C0263B669 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		FE5C401747E02A6EA6209BEE /* DriveClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveClient.swift; sourceTree = "<group>"; };
+		FFB074A8BFC17155B10DB137 /* PaperlyMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaperlyMac.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		763610AE4C46C8B928998ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E78BE7D81E100CB70EF428 /* GRDB in Frameworks */,
+				7B8320649BE7E43EEA74BE01 /* GoogleSignIn in Frameworks */,
+				3806C54B834915C08FD560B2 /* WhisperKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11CB9941700BBB3FAFCD2560 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				978BE2F90DC609DD6672E966 /* Assets.xcassets */,
+				B5EE0C7CF90346F1AC604926 /* Info.plist */,
+				FFB074A8BFC17155B10DB137 /* PaperlyMac.entitlements */,
+				D51D27DC86C9A8D06F0DF81D /* Templates */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		282937AF1452FF61967E531E /* PaperlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D621EAD78692BE49AE9CFB1 /* ContinuousNotebookTests.swift */,
+				3203046DA3EF2A6596BA89C9 /* EditorImageTests.swift */,
+				D670848204E50E8B8F01658F /* HandwritingSearchTests.swift */,
+				44F9EF1A6D1A4194CCF88322 /* ImageClipboardTests.swift */,
+				7FBD60A1448DADF5C73191EB /* ImagePDFExportTests.swift */,
+				B033257D2FF0638B21F54D5D /* PageThumbnailTests.swift */,
+				459808C6A609276484CA9111 /* PageViewportTests.swift */,
+				A059A1E36844C7E7B929D1A8 /* PaperInkTests.swift */,
+				2EB416A90072A3548FCD527B /* RepositoryTests.swift */,
+				988AEDE0CC80C571F03414E1 /* StrokeEditingTests.swift */,
+				2A7D60161DF754F7BD2D8CD0 /* TextDocumentTests.swift */,
+				1034AFD6F740010D8A431D88 /* TrashTests.swift */,
+				9C84F68E0F8B278D4FC04D68 /* WorkspaceImportTests.swift */,
+			);
+			path = PaperlyTests;
+			sourceTree = "<group>";
+		};
+		32F5EA2DA79821DFDC05815A /* PaperlyWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				70B03EF0B18E4525744BCA5A /* AudioNoteLiveActivity.swift */,
+				FCB46F44B44FAC3C27E5B12B /* Info.plist */,
+				DC395094482691D357B3A766 /* PaperlyWidgets.swift */,
+			);
+			path = PaperlyWidgets;
+			sourceTree = "<group>";
+		};
+		4E6FA10A9C66E288DF1A59C7 = {
+			isa = PBXGroup;
+			children = (
+				4EF57EF3A7C0DFE90C5C9D8E /* Paperly */,
+				EC7CF20731C95253D4C9821B /* paperly */,
+				282937AF1452FF61967E531E /* PaperlyTests */,
+				32F5EA2DA79821DFDC05815A /* PaperlyWidgets */,
+				926F3583FE644ADC5B5069E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EF57EF3A7C0DFE90C5C9D8E /* Paperly */ = {
+			isa = PBXGroup;
+			children = (
+				9AF2C6E5A641AFF9C9C21F90 /* App */,
+				9FFD238672830CB2ADFC53A1 /* Audio */,
+				54834003E83BF03B287CFE35 /* Editor */,
+				D568EA4E54D77CDDD21956A3 /* Library */,
+				9C343C27FCFFFBFCC920BA3F /* Models */,
+				6457C9B772B713734513B312 /* PDF */,
+				11CB9941700BBB3FAFCD2560 /* Resources */,
+				65DD99338E11ED3E9B8F170E /* Search */,
+				AA63E673E0308AE69FB0F504 /* Settings */,
+				B1960FB2D3F3ECB37D4A5008 /* Storage */,
+				83E93887EBB84C3CCCAF1A0F /* Sync */,
+				B1CD8A52DDA922BEEA09B146 /* Text */,
+			);
+			path = Paperly;
+			sourceTree = "<group>";
+		};
+		54834003E83BF03B287CFE35 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				7E8E6713ACF5C69823606518 /* ContinuousNotebookView.swift */,
+				DA675835BD28DEEE7EE9BE26 /* EditorClipboard.swift */,
+				7DF0C10E23473F862FCB71A3 /* EditorPreferences.swift */,
+				B0A755D5A7334BFC5E1888FC /* EditorViewModel.swift */,
+				3CD3272FA6CCB6D5322EF658 /* NotebookEditorView.swift */,
+				D6F3FA9BE5618F0FA830E29B /* NotebookImagesView.swift */,
+				F241805B18F2A21270178E19 /* NotebookSession.swift */,
+				C94491F8DE40339EB35EBC8F /* PageThumbnailRenderer.swift */,
+				ED3872D8989CC20D3D623F02 /* PageViewport.swift */,
+				9147C17C4F18B5B8CDD5DB55 /* PaperInk.swift */,
+				562B16AEA887141A9FD675BC /* PenSettingsView.swift */,
+				9CB8A1814A022CA67B03495C /* StrokeEditing.swift */,
+				ECEFA8720A48511F192C8B1C /* WritingCanvas.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		6457C9B772B713734513B312 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				6B903B75EEE4A943E7B31B20 /* PDFService.swift */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		65DD99338E11ED3E9B8F170E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				559CF8EFAD7DFCCE515ABACF /* HandwritingIndexer.swift */,
+				54A21EADEF35AC0FBAC22582 /* SearchableHandwritingView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		83E93887EBB84C3CCCAF1A0F /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				FE5C401747E02A6EA6209BEE /* DriveClient.swift */,
+				DC0A8EC926BD0836E5EAA7EF /* GoogleAccount.swift */,
+				B6FAF40CDC4832C36DFF5A16 /* SyncService.swift */,
+			);
+			path = Sync;
+			sourceTree = "<group>";
+		};
+		926F3583FE644ADC5B5069E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C98D4977C44B9C027522880 /* Paperly.app */,
+				431F42CE028B99D5E0E36342 /* PaperlyTests.xctest */,
+				6B3D3104569320E6490BB3ED /* PaperlyWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF2C6E5A641AFF9C9C21F90 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EAC7B320C0676D1CDF7ACD59 /* PaperlyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9C343C27FCFFFBFCC920BA3F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				914A87CB6B3156010CF54B7D /* AudioNoteActivityAttributes.swift */,
+				D906EAE1D5154026706086F2 /* Notebook.swift */,
+				2F4CD14DFC7DE2971A9C1349 /* NoteSearch.swift */,
+				2586DC4100881AD46C130F08 /* PagePull.swift */,
+				6F2D824068A3DCF4C5041C4F /* Recording.swift */,
+				F3F1585EFE7DC13909707FFB /* ScribbleGestureDetector.swift */,
+				9B5DE6F0B24780EEEE3B0129 /* SyncDecision.swift */,
+				5B2E8CA6E090E8C28F14E947 /* TextDocument.swift */,
+				6640BD6989A3A2A25907E958 /* WorkspaceFolder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FFD238672830CB2ADFC53A1 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				6261187338BD13407DC895B6 /* LocalAudioIntelligence.swift */,
+				430635EAA39714C3B191D04D /* MacRecordingView.swift */,
+				D45A9F25E864C992FA6A3A51 /* PhoneAudioNoteView.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		AA63E673E0308AE69FB0F504 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C18C03048C06016C3FCD250F /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B1960FB2D3F3ECB37D4A5008 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				EC6E0A145F1D19F5FA0900BE /* NotebookRepository.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		B1CD8A52DDA922BEEA09B146 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				065716D09EEB0D7FB744E20C /* BlockTextView.swift */,
+				3278EB92788FDDCEA44FC11D /* TextDocumentEditorView.swift */,
+				7CBC507622FC1B2922D62E0D /* TextDocumentViewModel.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		D51D27DC86C9A8D06F0DF81D /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				740C440159B0EF409E34AE0A /* blank.json */,
+				8CDF93DA457396BEA397C283 /* dot.json */,
+				F0B8F0B4826987E7C273BD2A /* grid.json */,
+				0C6456C44726EAE98C67A84E /* ruled.json */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		D568EA4E54D77CDDD21956A3 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E81CA6BD8E0DFFFCFD93F7DA /* FolderColorView.swift */,
+				C1A905ADD2741F3907BB76ED /* ImportLocationView.swift */,
+				388A517045F334BC3D472112 /* IncomingDocument.swift */,
+				0505D501BED37DC0B67CAE84 /* LibraryView.swift */,
+				C8A91BD735927F13D285403F /* LibraryViewModel.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EC7CF20731C95253D4C9821B /* paperly */ = {
+			isa = PBXGroup;
+			children = (
+				FD84D5392F18380C0263B669 /* Config.xcconfig */,
+			);
+			name = paperly;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2266EB4B4751B968866FA50F /* PaperlyWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89682D6AC7C7C9E47BEF4C0D /* Build configuration list for PBXNativeTarget "PaperlyWidgets" */;
+			buildPhases = (
+				EE50957DF1CA9E0B2BF4A18D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaperlyWidgets;
+			packageProductDependencies = (
+			);
+			productName = PaperlyWidgets;
+			productReference = 6B3D3104569320E6490BB3ED /* PaperlyWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		44204A7AC16BCC9FA6714490 /* PaperlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF5CF7EA31FF0071895AC38 /* Build configuration list for PBXNativeTarget "PaperlyTests" */;
+			buildPhases = (
+				17A4D063D2461E63F402A326 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED38530665CD73102A17C731 /* PBXTargetDependency */,
+			);
+			name = PaperlyTests;
+			packageProductDependencies = (
+			);
+			productName = PaperlyTests;
+			productReference = 431F42CE028B99D5E0E36342 /* PaperlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5726C44F0B4C5873F882D1A0 /* Paperly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D619232E023BC543641AAA2A /* Build configuration list for PBXNativeTarget "Paperly" */;
+			buildPhases = (
+				F78E4A9C01E596A504222AF7 /* Sources */,
+				3BE986B61D22EC7DB7CAA96B /* Resources */,
+				763610AE4C46C8B928998ABC /* Frameworks */,
+				A3857908428E2102A2099CCC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCB2607D224EAAC2BC025DCC /* PBXTargetDependency */,
+			);
+			name = Paperly;
+			packageProductDependencies = (
+				7A24815E28AD1F1E43B2443C /* GRDB */,
+				3E8CB9CF5C0456D71C25CA36 /* GoogleSignIn */,
+				762AB90534FC570264F27457 /* WhisperKit */,
+			);
+			productName = Paperly;
+			productReference = 1C98D4977C44B9C027522880 /* Paperly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B0A2FE92F9751F738BD6CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2266EB4B4751B968866FA50F = {
+						DevelopmentTeam = H8VF64B3YX;
+						ProvisioningStyle = Automatic;
+					};
+					44204A7AC16BCC9FA6714490 = {
+						DevelopmentTeam = H8VF64B3YX;
+						ProvisioningStyle = Automatic;
+					};
+					5726C44F0B4C5873F882D1A0 = {
+						DevelopmentTeam = H8VF64B3YX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B2907D33BE016004A1052F68 /* Build configuration list for PBXProject "Paperly" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4E6FA10A9C66E288DF1A59C7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CADF48174CA2468A7A6EE828 /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+				0556A103B100791A2EA9C103 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				03A1EDFEC428D80BB3695BE7 /* XCRemoteSwiftPackageReference "WhisperKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 926F3583FE644ADC5B5069E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5726C44F0B4C5873F882D1A0 /* Paperly */,
+				2266EB4B4751B968866FA50F /* PaperlyWidgets */,
+				44204A7AC16BCC9FA6714490 /* PaperlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BE986B61D22EC7DB7CAA96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B11BB16F1270376D40E1B5 /* Assets.xcassets in Resources */,
+				D70941CEB1528C37AE9B60F6 /* blank.json in Resources */,
+				3549060685298BCCA22799F5 /* dot.json in Resources */,
+				4F2DC85AC0B841E2BA5ABB3E /* grid.json in Resources */,
+				4425B46A0B41323D0EF00A8A /* ruled.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17A4D063D2461E63F402A326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6BEA5202AB5C20A6ECC230 /* ContinuousNotebookTests.swift in Sources */,
+				D854F21F39D90CD95FF417C9 /* EditorImageTests.swift in Sources */,
+				6157D165FED6702B25EEFFC7 /* HandwritingSearchTests.swift in Sources */,
+				ACEC5B37A043A7958A6C4B59 /* ImageClipboardTests.swift in Sources */,
+				82751C867AA81FF488B83C32 /* ImagePDFExportTests.swift in Sources */,
+				4126924570DB92B03C407351 /* PageThumbnailTests.swift in Sources */,
+				E18AE6522B4DB6ADC39D2347 /* PageViewportTests.swift in Sources */,
+				3C1337D20498F77BA368C4CA /* PaperInkTests.swift in Sources */,
+				9DBFCEFF96BC601D0F229507 /* RepositoryTests.swift in Sources */,
+				52FEA059C8910D89318D1BAC /* StrokeEditingTests.swift in Sources */,
+				6734C0663511B2D0DFBA67A7 /* TextDocumentTests.swift in Sources */,
+				411C6C9D652F950C12D07448 /* TrashTests.swift in Sources */,
+				8BBC44649EA55995558EEB5B /* WorkspaceImportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE50957DF1CA9E0B2BF4A18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BA47D34ED5C20DB93A918A /* AudioNoteActivityAttributes.swift in Sources */,
+				B54391E6F4743E98338078D8 /* AudioNoteLiveActivity.swift in Sources */,
+				6FB87559F978FCEA4AFE9A2B /* PaperlyWidgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78E4A9C01E596A504222AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C277FFBF6F0767D642C32A1F /* AudioNoteActivityAttributes.swift in Sources */,
+				CCDBCD079290DF78B6AFAECD /* BlockTextView.swift in Sources */,
+				FD1765A7F309B5123B7B680A /* ContinuousNotebookView.swift in Sources */,
+				B2A2B8B96F6B928C68ECD79D /* DriveClient.swift in Sources */,
+				F0DDFDF912DA6C3E30CF95CA /* EditorClipboard.swift in Sources */,
+				C9C19181B20E79BEEF489BB7 /* EditorPreferences.swift in Sources */,
+				F560FC09B56F4168204C44D7 /* EditorViewModel.swift in Sources */,
+				D39D988C48D65B9596CC2B51 /* FolderColorView.swift in Sources */,
+				188EB9237A9174D780BB2774 /* GoogleAccount.swift in Sources */,
+				A856452430F2BD29BC9E1F07 /* HandwritingIndexer.swift in Sources */,
+				2D2AE67597BE3033A21BC0D5 /* ImportLocationView.swift in Sources */,
+				F6A0B50AFA3A025FF4B5149D /* IncomingDocument.swift in Sources */,
+				E4C34B3894CBA9F000B66EC0 /* LibraryView.swift in Sources */,
+				D72515DA3965835DAF27B0EC /* LibraryViewModel.swift in Sources */,
+				02142C78DFD988B21722F1A7 /* LocalAudioIntelligence.swift in Sources */,
+				198DC06BD9555D4AA651B934 /* MacRecordingView.swift in Sources */,
+				A4111877EEC3BC085A4BF44E /* NoteSearch.swift in Sources */,
+				D7E0251046E15343414951F7 /* Notebook.swift in Sources */,
+				DD0B6F341531E46DCED37FE7 /* NotebookEditorView.swift in Sources */,
+				C7920CDF3EA71B42DBDB3FBA /* NotebookImagesView.swift in Sources */,
+				FEED64706E304AD7864CF985 /* NotebookRepository.swift in Sources */,
+				C0C21633243B423F699ABAFF /* NotebookSession.swift in Sources */,
+				61B85783401584B089EEAD83 /* PDFService.swift in Sources */,
+				3F92FF8D961A67FFEFE3BC2B /* PagePull.swift in Sources */,
+				89A3F2B71346B561E513F2EE /* PageThumbnailRenderer.swift in Sources */,
+				4720CDE969D7681016F1BFAE /* PageViewport.swift in Sources */,
+				DA0F9F580EB018FD073EB1C1 /* PaperInk.swift in Sources */,
+				22CF1DE3B676BF4ADBF84CCF /* PaperlyApp.swift in Sources */,
+				DA6FB11594F085D4C8CBBE8B /* PenSettingsView.swift in Sources */,
+				4ADC87DFC8E9CF7EAEF37469 /* PhoneAudioNoteView.swift in Sources */,
+				9AF0EF2121BE63012D768EF4 /* Recording.swift in Sources */,
+				FF152F5680D001FAE1F6415A /* ScribbleGestureDetector.swift in Sources */,
+				1C02BEF7EDDB5308AF73E3CC /* SearchableHandwritingView.swift in Sources */,
+				F0B27FC239310DF1048BA773 /* SettingsView.swift in Sources */,
+				42C6EC5D4AC655B51E0D0F46 /* StrokeEditing.swift in Sources */,
+				8B606E9BBDE84F079093787E /* SyncDecision.swift in Sources */,
+				D5A2EAB53A806017D6B99DA3 /* SyncService.swift in Sources */,
+				806EE83341552607FA5C7122 /* TextDocument.swift in Sources */,
+				692042424D499F7095ADF50E /* TextDocumentEditorView.swift in Sources */,
+				949D292FC00F1FAC843AAEA2 /* TextDocumentViewModel.swift in Sources */,
+				C97EEFF6A4D5961B6EC672FC /* WorkspaceFolder.swift in Sources */,
+				5E56FC62C5628193CE6C853F /* WritingCanvas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED38530665CD73102A17C731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5726C44F0B4C5873F882D1A0 /* Paperly */;
+			targetProxy = F554BEA72CB5101A704B382C /* PBXContainerItemProxy */;
+		};
+		FCB2607D224EAAC2BC025DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilters = (
+				ios,
+			);
+			target = 2266EB4B4751B968866FA50F /* PaperlyWidgets */;
+			targetProxy = 2A38346AC57A0B28DEEF76DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28338014933A7D83E37C3B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8VF64B3YX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.paperly.PaperlyTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paperly.app/Paperly";
+			};
+			name = Release;
+		};
+		38FD33AD5BCF15AADD5D1C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8VF64B3YX;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PaperlyWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.paperly.ipad.widgets;
+				PRODUCT_NAME = PaperlyWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E46DDAD0D57356D98393F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FD533445F4A11C8AA0A3C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B066432FFEF24E307F3DBA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8VF64B3YX;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PaperlyWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.paperly.ipad.widgets;
+				PRODUCT_NAME = PaperlyWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D54A6BCFC5F66EE7AEB1C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD84D5392F18380C0263B669 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = Paperly/Resources/PaperlyMac.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8VF64B3YX;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Paperly/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.paperly.ipad;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B35E5B6371FEB32DC7D0C04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD84D5392F18380C0263B669 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = Paperly/Resources/PaperlyMac.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8VF64B3YX;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Paperly/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.paperly.ipad;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAC8324FF0AAEC1D0F983A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8VF64B3YX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.paperly.PaperlyTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paperly.app/Paperly";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89682D6AC7C7C9E47BEF4C0D /* Build configuration list for PBXNativeTarget "PaperlyWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B066432FFEF24E307F3DBA3 /* Debug */,
+				38FD33AD5BCF15AADD5D1C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B2907D33BE016004A1052F68 /* Build configuration list for PBXProject "Paperly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E46DDAD0D57356D98393F72 /* Debug */,
+				6FD533445F4A11C8AA0A3C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D619232E023BC543641AAA2A /* Build configuration list for PBXNativeTarget "Paperly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35E5B6371FEB32DC7D0C04F /* Debug */,
+				7D54A6BCFC5F66EE7AEB1C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FCF5CF7EA31FF0071895AC38 /* Build configuration list for PBXNativeTarget "PaperlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC8324FF0AAEC1D0F983A57 /* Debug */,
+				28338014933A7D83E37C3B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03A1EDFEC428D80BB3695BE7 /* XCRemoteSwiftPackageReference "WhisperKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/argmaxinc/WhisperKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.18.0;
+			};
+		};
+		0556A103B100791A2EA9C103 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		CADF48174CA2468A7A6EE828 /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E8CB9CF5C0456D71C25CA36 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0556A103B100791A2EA9C103 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		762AB90534FC570264F27457 /* WhisperKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03A1EDFEC428D80BB3695BE7 /* XCRemoteSwiftPackageReference "WhisperKit" */;
+			productName = WhisperKit;
+		};
+		7A24815E28AD1F1E43B2443C /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CADF48174CA2468A7A6EE828 /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 93B0A2FE92F9751F738BD6CE /* Project object */;
+}

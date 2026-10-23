@@ -1,0 +1,20 @@
+{
+  "manifest": {
+    "formatVersion": 1,
+    "id": "8224ffb7-4a50-41b7-abae-7766535107ca",
+    "title": "Graph notebook",
+    "createdAt": 0,
+    "modifiedAt": 0,
+    "generation": "ba31ba97-c8de-47c7-827b-37982a5c8a06",
+    "cover": "sage",
+    "pages": [
+      {
+        "id": "5be11450-470a-4c3a-8d56-af3e30452c76",
+        "template": "grid",
+        "width": 768,
+        "height": 1024
+      }
+    ]
+  },
+  "assets": {}
+}

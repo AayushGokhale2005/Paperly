@@ -1,0 +1,12 @@
+[
+  {
+    "path": "/Applications/Goodnotes.app/Contents/Resources/en.lproj/Tools.strings",
+    "sha256": "55246ba6c387a0adba109051a8ca262dd367eb51134e3044b7b7e7f34ae7e567",
+    "method": "Source digest computed independently with Python hashlib; resource values obtained through REA inspect_plist."
+  },
+  {
+    "path": "/Applications/Goodnotes.app/Contents/Resources/en.lproj/Localizable.strings",
+    "sha256": "142da2e0ba0be36815ebb263f5028006e506e766a478b41e30116b058e197f8e",
+    "method": "Source digest computed independently with Python hashlib; resource values obtained through REA inspect_plist."
+  }
+]
